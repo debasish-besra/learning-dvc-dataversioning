@@ -7,7 +7,7 @@ def create_dataframe():
     data = {
         "id": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
         "review": [
-            "Great food and ambiance.",
+            "Great food and ambiance. v2",
             "Terrible service.",
             "Amazing experience!",
             "Food was cold.",
@@ -57,7 +57,7 @@ if __name__ == "__main__":
     save_dataframe(df)
 
     # Step 3
-    k = 3  # Replace with your desired value of K
+    k = 5  # Replace with your desired value of K
     processed_data = process_data(k)
 
     # Display the processed dataframe
